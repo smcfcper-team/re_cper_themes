@@ -1,0 +1,11 @@
+{
+	"format_version": 1,
+	"id": "blue-archive",
+	"name": "蔚蓝档案",
+	"desc": "原来你也玩蔚蓝档案",
+	"icon": "./res/icon.png",
+	"preview": "./res/preview.webp",
+	"authors": ["LateDream(Official)"],
+	"version": "1.0.0",
+	"main": "./main.css"
+}

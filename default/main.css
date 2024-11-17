@@ -1,0 +1,41 @@
+/* color scheme */
+html {
+  --bg-color: whitesmoke;
+  --color: #393D49;
+}
+html[scheme="dark"] {
+  --bg-color: #393D49;
+  --color: whitesmoke;
+}
+
+/* mcf highlight */
+pre {
+  font-family: 'fira code', monospace;
+  background-color: #181818;
+  background-image: url(./images/XiaozhiSans.png);
+  background-size: 16px;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  border: 1px solid #a11040;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+pre .mcf-cmd {
+  color: #569cd6;
+}
+pre .mcf-arg {
+  color: #d4d4d4;
+}
+pre .mcf-note {
+  color: #777;
+  font-style: italic;
+}
+pre .mcf-string {
+  color: #ce9178;
+}
+pre .mcf-num {
+  color: #481e1e;
+}

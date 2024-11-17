@@ -1,0 +1,11 @@
+{
+	"format_version": 1,
+	"id": "classic",
+	"name": "经典",
+	"desc": "经典主题\n就像SMCFcper的默认外观一样",
+	"icon": null,
+	"preview": null,
+	"authors": ["Official"],
+	"version": "1.0.0",
+	"main": "./main.css"
+}

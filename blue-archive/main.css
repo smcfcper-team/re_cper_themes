@@ -1,0 +1,32 @@
+/* 全局样式 */
+:root {
+	--title: url("./res/title.png");
+
+	--bg-color: #f5f5f5;
+	--color: #09475c;
+}
+html[scheme="dark"]:root {
+	--title: url("./res/title-dark.png");
+
+	--bg-color: #09475c;
+	--color: #f5f5f5;
+}
+
+body {
+	background-color: var(--bg-color);
+	color: var(--color);
+}
+
+#custom-background {
+	background: url("res/shiroko.png") no-repeat right fixed;
+	background-size: contain;
+	opacity: 0.2;
+	z-index: 2;
+	user-select: none;
+}
+
+#title_panel {
+	color: transparent;
+	background: var(--title) no-repeat;
+	background-size: auto 140%;
+}

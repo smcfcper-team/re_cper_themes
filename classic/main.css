@@ -1,0 +1,49 @@
+/* mcf highlight */
+@import url("./code.css");
+
+:root {
+	--main-fonts: "HarmonyOS Sans", 方正兰亭黑, 微软雅黑, "Microsoft Yahei";
+	--code-font: "fira code";
+}
+html {
+	--bg-color: #d5d3d4;
+	--color: #000;
+}
+html[scheme="dark"] {
+	--bg-color: #181a1b;
+	--color: #fff;
+}
+#title_panel {
+	color: transparent;
+	background: url("res/smcfcper.tab.png") no-repeat #000;
+	background-size: contain;
+}
+#title_panel::before {
+	display: block;
+	font-weight: bold;
+	font-size: 14px;
+	content: "重生";
+	color: #ff0;
+	position: relative;
+	left: 10.5em;
+	top: 1.5em;
+}
+body {
+	background-color: var(--bg-color);
+	color: var(--color);
+	font-family: var(--main-fonts);
+}
+#custom-background {
+	opacity: 0.2;
+	background: url("res/freelucker.png") no-repeat right fixed;
+	background-size: contain;
+	pointer-events: none;
+	z-index: 2;
+}
+pre {
+	font-family: var(--code-font);
+	font-size: 14px;
+	line-height: 1.4;
+	padding: 1.2em !important;
+	background-color: #0006;
+}
