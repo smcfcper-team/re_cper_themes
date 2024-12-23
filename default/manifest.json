@@ -4,7 +4,7 @@
 	"id": "default",
 	"name": "默认",
 	"desc": "默认主题",
-	"icon": null,
+	"icon": "./icon.png",
 	"preview": null,
 	"authors": ["Official"],
 	"version": "1.0.0",
